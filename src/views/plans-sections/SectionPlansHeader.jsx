@@ -1,9 +1,11 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import backgraund from "../../assets/img/section-sign/background-sign.png"; // with import
+import Flip from 'react-reveal/Flip';
 
 export const SectionPlansHeader = () => {
   return (
+    <Flip top>
     <section id="plans-header" className="d-flex align-items-center">
       <Container>
         <Row>
@@ -21,5 +23,6 @@ export const SectionPlansHeader = () => {
             </Row>
       </Container>
     </section>
+    </Flip>
   );
 };
