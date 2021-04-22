@@ -1,0 +1,318 @@
+/*--------------------------------------------------------------
+  # sign-header Section
+  --------------------------------------------------------------*/
+
+#sign-header {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 0 100px 0;
+    margin-bottom: -75px;
+}
+
+.nav-item a {
+    color: #3b4b73;
+    font-weight: 450;
+}
+
+#sign-header h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #3b4b73;
+    font-family: "MYRIADPRO", sans-serif;
+}
+
+#sign-header h2 {
+    color: #515f7d;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#sign-header .download-btn {
+    font-family: "MYRIADPRO", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    padding: 8px 24px 10px 46px;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: #fff;
+    background: #29B383;
+    position: relative;
+}
+
+#sign-header .download-btn:hover {
+    background: #5777ba;
+}
+
+#sign-header .download-btn i {
+    font-size: 20px;
+    position: absolute;
+    left: 18px;
+    top: 8.5px;
+}
+
+#sign-header .download-btn+.download-btn {
+    margin-left: 20px;
+}
+
+#sign-header a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+@media (max-width: 991px) {
+    #sign-header {
+        text-align: center;
+    }
+    #sign-header .download-btn+.download-btn {
+        margin: 0 10px;
+    }
+    #sign-header .sign-header-img {
+        text-align: center;
+    }
+    #sign-header .sign-header-img img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    #sign-header h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #sign-header h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    #sign-header .sign-header-img img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 575px) {
+    #sign-header .sign-header-img img {
+        width: 80%;
+    }
+}
+
+.get-started-btn {
+    background: #29B383;
+    color: #fff;
+    border-radius: 50px;
+    margin: 0 15px;
+    padding: 10px 25px;
+}
+
+#sign-header .btn-get-started {
+    font-family: "MYRIADPRO", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 1px 66px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #29B383;
+}
+
+
+/*--------------------------------------------------------------
+  # sign-info Section
+  --------------------------------------------------------------*/
+
+#sign-info {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 0 100px 0;
+    margin-bottom: -75px;
+}
+
+#sign-info h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #3b4b73;
+    font-family: "MYRIADPRO", sans-serif;
+}
+
+#sign-info h2 {
+    color: #515f7d;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#sign-info .download-btn {
+    font-family: "MYRIADPRO", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    padding: 8px 24px 10px 46px;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: #fff;
+    background: #29B383;
+    position: relative;
+}
+
+#sign-info .download-btn:hover {
+    background: #5777ba;
+}
+
+#sign-info .download-btn i {
+    font-size: 20px;
+    position: absolute;
+    left: 18px;
+    top: 8.5px;
+}
+
+#sign-info .download-btn+.download-btn {
+    margin-left: 20px;
+}
+
+#sign-info a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#sign-info .box {
+    color: #FFF;
+    background: #3E4A74;
+    font-size: 14px;
+    width: 275px;
+    height: auto;
+    margin: 10px;
+    padding: 13px;
+    border: 1px solid #F6F6F6;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+#sign-info .box-2 {
+    color: #FFF;
+    background: #1BB482;
+    font-size: 14px;
+    width: 275px;
+    height: auto;
+    margin: 10px;
+    padding: 13px;
+    border: 1px solid #F6F6F6;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+
+/*--------------------------------------------------------------
+  # sign-footer Section
+  --------------------------------------------------------------*/
+
+#sign-footer {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 0 100px 0;
+    margin-bottom: -75px;
+}
+
+#sign-footer h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #3b4b73;
+    font-family: "MYRIADPRO", sans-serif;
+}
+
+#sign-footer h2 {
+    color: #1BB482;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+/*--------------------------------------------------------------
+  # sign-info Section
+  --------------------------------------------------------------*/
+
+#sign-footer {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 0 100px 0;
+    margin-bottom: -75px;
+}
+
+#sign-footer h1 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #3b4b73;
+    font-family: "MYRIADPRO", sans-serif;
+}
+
+#sign-footer h2 {
+    color: #1BB482;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#sign-footer .btn-get-started {
+    cursor: pointer;
+    font-family: "MYRIADPRO", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 1px 66px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #29B383;
+}
+
+#sign-footer a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+/*--------------------------------------------------------------
+  # sign-ruc Section
+  --------------------------------------------------------------*/
+
+#sign-ruc {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 0 100px 0;
+    margin-bottom: -75px;
+}
+
+#sign-ruc h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #3b4b73;
+    font-family: "MYRIADPRO", sans-serif;
+}
+
+#sign-ruc h2 {
+    color: #1BB482;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+#sign-ruc p {
+    color: #3b4b73;
+    margin-bottom: 10px;
+}

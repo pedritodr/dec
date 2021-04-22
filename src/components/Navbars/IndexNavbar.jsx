@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Navbar, NavDropdown, Nav, Image, Button } from "react-bootstrap";
 
 import logoStupendo from "../../assets/img/logo-stupendo.png"; // with import
@@ -44,19 +45,19 @@ export const IndexNavbar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link className="nav-link-item" href="#features">
+            <Nav.Link className="nav-link-item" href="/">
               Resumen
             </Nav.Link>
-            <Nav.Link className="nav-link-item" href="#pricing">
+            <Nav.Link className="nav-link-item" href="/dec">
               ¿Por qué Dec?
             </Nav.Link>
-            <Nav.Link className="nav-link-item" href="#pricing">
+            <Nav.Link className="nav-link-item" href="/sign">
               Easy Sign
             </Nav.Link>
-            <Nav.Link className="nav-link-item" href="#pricing">
+            <Nav.Link className="nav-link-item" href="/developers">
               Developers
             </Nav.Link>
-            <Nav.Link className="nav-link-item" href="#pricing">
+            <Nav.Link className="nav-link-item" href="/plans">
               Planes
             </Nav.Link>
           </Nav>
